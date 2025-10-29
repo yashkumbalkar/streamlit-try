@@ -4,10 +4,10 @@ lst = [1,2]
 
 if st.button("Show List"):
     
-    st.write(data)
+    st.write(lst)
 
     
-    st.json(data)
+    st.json(lst)
 
 
     # Normal Number
