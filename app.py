@@ -5,11 +5,10 @@ lst = [1,2]
 if st.button("Show List"):
 
     # साधारण list दिखाने के लिए
-    st.write(lst)
+    st.write(str(lst))
 
-    
-    st.json(lst)
-
+    # JSON format में दिखाने के लिए
+    st.json(json.dumps(lst))
 
     # Normal Number
     st.write(5)
