@@ -14,6 +14,10 @@ if st.button("Show List"):
     # New
     st.code(json.dumps(lst), language="json")
 
+    st.code(json.dumps(lst))
+
+    st.write(str(json.dumps(lst)))
+
     # Normal Number
     st.write(5)
 
