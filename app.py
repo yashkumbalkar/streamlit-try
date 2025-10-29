@@ -11,6 +11,9 @@ if st.button("Show List"):
     # JSON format में दिखाने के लिए
     st.json(json.dumps(lst))
 
+    # New
+    st.code(json.dumps(lst), language="json")
+
     # Normal Number
     st.write(5)
 
