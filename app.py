@@ -14,4 +14,4 @@ if st.button("Show List"):
     st.write(5)
 
     # Number using JSON
-    st.json(5)
+    st.json({5:5})
