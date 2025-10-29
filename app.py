@@ -9,10 +9,11 @@ if st.button("Show List"):
     st.write(str(lst))
 
     # JSON format में दिखाने के लिए
-    st.json(json.dumps(lst))
+    st.json(lst)
 
     # New
     st.code(json.dumps(lst), language="json")
+    st.code(lst)
 
     # Our Format
     st.success("our desired format")
