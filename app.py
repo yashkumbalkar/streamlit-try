@@ -15,10 +15,10 @@ if st.button("Show List"):
     st.code(json.dumps(lst), language="json")
 
     # Manual
-    st.write([
+    st.write(str([
         1,
         2
-    ])
+    ]))
 
     # Normal Number
     st.write(5)
